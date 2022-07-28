@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------- */
+body{
+  width:100%;
+  min-height:100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/img/Back-G-2.svg);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* Background END */
+  font-family: 'B Koodak';
+}
+
+/* ---------------------------------------------------------------- */
+
+
+
+/* Container */
+.container{
+  padding-top: 130px;
+}
+/* Container End */
+
+/* ---------------------------------------------------------------- */
+
+/* Left Side */
+#Left-Side{
+    background-color: rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    direction: rtl;
+    text-align: right;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.information p{
+  color:rgba(255, 255, 255, 0.836);
+}
+.h2{
+  padding-top: 10px;
+}
+.line{
+  border: solid 2px  #f86d70;
+}
+.explain-text{
+  padding: 5px;
+}
+#location-icon,#phone-icon,#email-icon{
+  color: #00bfa6;
+}
+.map{
+  border-radius: 5px;
+}
+/* Left Side End */
+
+/* ---------------------------------------------------------------- */
+
+/* Right Side */
+#Right-Side{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.form-group{
+    text-align: right;
+}
+#Send-Button{
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  background-color:  #00bfa6;
+  border:none;
+}
+.other{
+  margin-top: 50px;
+  padding: 20px;
+  color:rgba(255, 255, 255, 0.836);
+}
+.Other-text{
+  text-align: center;
+}
+.icon{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+  width: 100%;
+  height: 50px;
+  /* margin-top:80px ; */
+  font-size: 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.icon a{
+  text-decoration: none;
+}
+
+.icon a i{
+  transition: 0.2s;
+}
+
+
+#telegram-icon{
+  color: #00bfa6;
+
+}
+#instagram-icon{
+  color: #00bfa6;   
+}
+#twitter-icon{
+    color:#00bfa6;
+}
+
+#telegram-icon:hover{
+  font-size: 35px;
+  color: rgb(42, 163, 243);
+}
+#instagram-icon:hover{
+  font-size: 35px;
+  color: rgba(214, 65, 65, 0.973);
+}
+#twitter-icon:hover{
+  font-size: 35px;
+  color: rgb(42, 163, 243);
+}
+/* Right Side End */
+
+/* ---------------------------------------------------------------- */
+
+
+
+/* Footer start */
+
+footer{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

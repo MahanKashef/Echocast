@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+/* Navbar Start*/
+
+nav{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* Navbar Ends */
+
+/* Cards */
+section#cards{
+    width: 100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)); */
+    padding:95px 20px;
+}
+
+.card-text{
+    text-align: center;
+    font-size:45px;
+    margin-top:20px;
+    margin-left: 50px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 600;
+}
+
+.text{
+    background-image: linear-gradient(to left, #593dd5, #fc2b00);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    font-family: "B KOODAK";
+}
+
+
+.feature{
+    margin:10px 0 0 70px;
+    list-style: none;
+    display: flex;
+    direction: rtl;
+    font-family: "B KOODAK";
+    font-size:18px;
+}
+
+.feature-item{
+    cursor: pointer;
+}
+
+.feature-link{
+    color: #593dd5;
+    text-decoration: none;
+    font-size:1.2em;
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.feature-link:hover{
+    color:#dd3f1f;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.material-card{
+    margin-top:30px;
+}
+
+.name-text{
+    font-family: 'Poppins', serif;
+    font-weight: 200;
+}
+
+
+/* Most View */
+
+#most-view{
+    width: 100%;
+    padding:20px;
+}
+
+.title-text{
+    background: linear-gradient(to right, #593dd5, #fc2b00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size:30px;
+    padding-bottom: 20px;
+}
+
+
+.line{
+    display: block;
+    background-image: linear-gradient(to right, #593dd5, #fc2b00);
+    padding:1px;
+}

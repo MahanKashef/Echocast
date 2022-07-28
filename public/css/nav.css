@@ -1,0 +1,102 @@
+    /* NAVBAR */
+
+    nav{
+        position: fixed;
+        width: 100%;
+        transition: 1s;
+        z-index: 1000;
+        }
+
+    .logo{
+        position: absolute;
+        top:-20px;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+    }
+
+    .sign-in-button{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 5px;
+    }
+
+    .sign-out-button{
+        background-color: darkred; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .logo a{
+        cursor: pointer;
+    }
+
+    .logo img{
+        width: 80%;
+    }
+
+    .menu-bar , #check{
+        display: none;
+        background-size: 200%;
+    }
+
+    nav ul{
+        text-align: right;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0);
+        transition: 2s;
+        direction: rtl;
+    }
+
+    nav ul li{
+        
+        display: inline-block;
+        /* margin:17px 30px; */
+        padding:10px;
+        padding-right: 10px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        /* font-family: "Poppins" ,sans-serif; */
+        font-family: "B KOODAK";
+        text-transform: uppercase;
+        font-size: 11px;
+        transition: all 0.7s ease-in-out;
+    }
+
+    nav ul li a:hover{
+        text-decoration: none;
+    }
+
+    .text-animated{
+        background: linear-gradient(to right,#ccc 50% , #FF5858 50%, #CC2e5D);
+        background-size: 200%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        transition: 0.5s ease-out;
+    }
+
+    .text-animated:hover{
+        background-position: -100%;
+    }
+
+    nav.sticky{
+        padding:1px 80px;
+        background-color: #4b4444;
+    }
+
+    nav.sticky .logo{
+        left:40px;
+    }

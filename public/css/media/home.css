@@ -1,0 +1,113 @@
+
+
+/* large dekstop and laptop */
+
+@media (min-width: 1200)
+{
+    /*-------------------- Header --------------------*/
+
+    .headtag{
+        margin-top: 550px;
+    }
+
+    /*-------------------- Cards --------------------*/
+
+    .feature-link{
+        font-size: 25px;
+    }
+}
+
+
+/*---------------------------------------- large devices (dekstop ) ----------------------------------------*/
+
+@media (max-width: 1199.98px)
+{
+    /*-------------------- Cards --------------------*/
+
+    .feature-link{
+        font-size: 20px;
+    }
+
+}
+
+
+/*---------------------------------------- medium devices (tablet) ----------------------------------------*/
+
+@media (max-width: 991.98px)
+{
+    /*-------------------- Header --------------------*/
+
+    header{
+        min-height: 80vh;
+    }
+
+    header .row{
+        padding:250px 0 0 0;
+    }
+
+    .action{
+        margin-top:90px;
+    }
+
+}
+
+
+/*---------------------------------------- small devices (landscape phone ) ----------------------------------------*/
+
+@media (max-width: 767.98px)
+{
+
+    /*-------------------- Header --------------------*/
+
+    .header-text{
+        font-size: 3.8rem;
+    }
+
+    .ityped{
+        font-size:2.8rem ;
+    }
+
+    /*-------------------- Cards --------------------*/
+    
+    section#cards .row{
+        width: 60%;
+    }
+
+    
+
+}
+
+/*Extera small devices (portrait phone ) */
+
+@media (max-width: 576.98px)
+{
+
+    /*-------------------- Header --------------------*/
+
+    .header-text{
+        font-size: 4.1rem;
+    }
+
+    .ityped{
+        font-size: 2.8rem;
+    }
+
+    /*-------------------- Cards --------------------*/
+
+    section#cards .row{
+        width: 100%;
+    }
+
+    .card-text{
+        font-size:2.5rem;
+        margin-left: 10px;
+    }
+    
+    .feature{
+        margin:0 0 0 30px;
+        display: block;
+    }
+
+
+}
+

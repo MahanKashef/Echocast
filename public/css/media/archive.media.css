@@ -1,0 +1,264 @@
+
+/* large dekstop and laptop */
+
+@media only screen and (min-width: 1200px)
+{
+
+    /*-------------------- Main --------------------*/
+
+    .person-items{
+        font-size:22px;
+    }
+
+    .space { 
+
+        margin-left: 25%;
+    }
+
+    /*-------------------- Content --------------------*/
+
+    .content > .content-text{
+        font-size:22px;
+    }
+
+    audio{
+        width: 80%;
+    }
+
+      /*-------------------- suggest --------------------*/
+    
+    section#suggest .suggest-head {
+        font-size: 26px;
+    }
+
+    .username{
+        font-size:22px;
+    }
+
+    .user-suggest{
+        font-size:21px;
+    }
+}
+
+
+/*---------------------------------------- large devices (dekstop ) ----------------------------------------*/
+
+@media (max-width: 1199.98px)
+{
+    
+    /*-------------------- Main --------------------*/
+
+    .person-items{
+        font-size:22px;
+    }
+
+    .space { 
+
+        margin-left: 25%;
+    }
+
+    /*-------------------- Content --------------------*/
+
+    .content > .content-text{
+        font-size:22px;
+    }
+
+    audio{
+        width: 80%;
+    }
+
+}
+
+
+/*---------------------------------------- medium devices (tablet) ----------------------------------------*/
+
+@media only screen and (max-width: 991.98px)
+{
+
+    /*-------------------- Main --------------------*/
+
+    main{
+        width: 100%;
+      
+    }
+
+    .headtag-img{
+        width: 100%;
+    }
+
+    .person-img{
+        bottom: -50px;
+        left:42%;
+    }
+
+    .person-items{
+        font-size:20px;
+    }
+
+    .space{
+        
+        width: 60%;
+        margin-left: 150px;
+    }
+
+    /*-------------------- Content --------------------*/
+
+    .content-head{
+        font-size: 27px;
+    }
+
+    .content > .content-text{
+        font-size:21px;
+    }
+
+    audio{
+      width: 80%;
+    } 
+
+}
+
+
+/*---------------------------------------- small devices (landscape phone ) ----------------------------------------*/
+
+@media only screen and (max-width: 767.98px)
+{
+
+    /*-------------------- Main --------------------*/
+
+    main{
+        width: 100%;
+    }
+    
+    
+    .headtag-text{
+        font-size:28px;
+    }
+
+    .person-img{
+        width: 110px;
+        height: 110px;
+        left:40%;
+    }
+
+  
+
+    .person-items{
+        font-size:20px;
+    }
+
+    .space{
+        margin-left: 20%;
+    }
+
+    /* Content */
+
+    .content-head{
+        font-size: 27px;
+    }
+
+  .content > .content-text{
+    font-size:20px;
+  }
+
+  audio{
+      width: 80%;
+  } 
+
+    /*-------------------- suggest --------------------*/
+    
+    section#suggest{
+        width: 100%;
+    }
+
+    section#suggest .suggest-head {
+        font-size: 25px;
+    }
+
+    .username{
+        font-size:21px;
+    }
+
+    .user-suggest{
+        font-size:20px;
+    }
+
+
+}
+
+/*Extera small devices (portrait phone ) */
+
+@media (max-width: 576.98px)
+{
+
+
+    /*-------------------- Main --------------------*/
+
+
+    main{
+        width: 100%;
+        min-height: 100vh;
+        padding:20px 0;
+        padding-top:120px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .headtag-text{
+        font-size:28px;
+    }
+
+    .person-img{
+        width: 100px;
+        height: 100px;
+        left:38%;
+    }
+
+    .person{
+        padding:20px 0;
+    }
+
+    .person-items{
+        font-size:18px;
+    }
+
+
+    .space{
+        margin-left: 20%;
+    }
+
+    /* Content */
+    .content-head{
+        font-size: 27px;
+    }
+
+  .content > .content-text{
+    font-size:20px;
+  }
+
+  audio{
+      width: 100%;
+  } 
+
+    /*-------------------- suggest --------------------*/
+
+    section#suggest {
+        width: 100%;
+        padding:20px 0;
+    }
+
+    section#suggest .suggest-head {
+        font-size: 25px;
+    }
+
+    .username{
+        font-size:21px;
+    }
+
+    .user-suggest{
+        font-size:20px;
+    }
+
+
+}

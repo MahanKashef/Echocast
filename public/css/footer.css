@@ -1,0 +1,195 @@
+/* Footer */
+
+
+footer{
+    overflow: hidden;
+    width:100%;
+    background-color: #333;
+    /* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)); */
+}
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: inherit;
+}
+
+.line{
+    display: block;
+    background-image: linear-gradient(to right, #593dd5, #fc2b00);
+    padding:1px;
+}
+
+.info{
+    flex-basis: 38%;
+    padding:10px;
+    padding-left:20px;
+}
+
+.info-text{
+    color:white;
+    text-transform: capitalize;
+    /* font-family: "Poppins",sans-serif; */
+    font-family: "B KOODAK";
+    font-weight: 900;
+}
+
+.info-items{
+    list-style: none;
+}
+
+.info-link{
+    /* font-family: "Poppins",sans-serif; */
+    font-family: "B KOODAK";
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color:#919191;
+}
+
+.info-link:hover{
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+
+.info-item{
+    margin-top: 5px;
+}
+
+        /* social */
+
+.social{
+    margin-top:20px;
+    cursor: pointer;
+}
+
+.social-items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.social-item{
+    margin-right: 20px;
+    color:white;
+}
+
+.social-item i{
+    transition: all 0.3s ease-in-out;
+}
+
+.social-items i:hover{
+    transform: scale(1.3);
+}
+
+.fa-facebook-f:hover{
+    color:#3b5998;
+}
+
+.fa-linkedin:hover{
+    color:#ea4c89;
+}
+
+.fa-twitter:hover{
+    color:#55acee;
+}
+
+.contact{
+    flex-basis: 55%;
+    padding:10px;
+    direction: rtl;
+}
+
+.contact-text{
+    color:white;
+    text-transform: capitalize;
+    /* font-family: "Poppins",sans-serif; */
+    font-family: "B KOODAK";
+    font-weight: 900;
+}
+
+.form-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+}
+
+input{
+    font-family: arial;
+}
+
+textarea{
+    font-family: arial;
+}
+
+input[type = 'text'],input[type = 'email']{
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    padding:20px;
+    border-radius: 0;
+    color: white;
+}
+
+input[type = 'text']:hover,input[type = 'email']:hover{
+    box-shadow: none;
+}
+
+input[type = 'text']:focus,input[type = 'email']:focus{
+    box-shadow: none;
+}
+
+
+.form-group > textarea{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+}
+.form-group > textarea:hover{
+    box-shadow: none;
+}
+
+.form-group > textarea:focus{
+    box-shadow: none;
+    color:white;
+}
+
+
+.submit{
+    background: transparent;
+    padding:5px 15px;
+    color:#919191;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #919191;
+    /* font-family: "Poppins",sans-serif; */
+    font-family: "B KOODAK";
+    font-weight: 200;
+    transition: all 0.4s ease-in-out;
+    font-size: 18px;
+}
+
+.icon{
+    padding:0 15px;
+    font-size: 15px;
+}
+
+.submit:hover{
+    background-color: #fff;
+    color:#333;
+}

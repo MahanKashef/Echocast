@@ -1,0 +1,238 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font end */
+/* ---------------------------------------------------------------- */
+/* body */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+/* body end */
+/* ---------------------------------------------------------------- */
+/* main */
+
+nav{
+  background-color: rgba(0,0,0,0.4);
+}
+
+#main{
+    padding: 20px 0;
+    /* Background */
+    width:100%;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/Back-G.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Background END */
+}
+/* main end */
+/* ---------------------------------------------------------------- */
+/* header */
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#About-border{
+  border-top: solid 2px white;
+  
+}
+/* header end */
+/* ---------------------------------------------------------------- */
+/* Card */
+.the-card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:50px 100px;
+}
+.container{
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  /* margin: 10px 30px; */
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+  background-image: linear-gradient(to right top, #959eac, #968db2, #b172a1, #c85670, #c04b2b);
+  -webkit-backdrop-filter: blur(15px);
+  
+}
+.container:hover{
+  height: 470px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 35px 0px gray;
+}
+.container .wrapper img{
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+.container:hover .wrapper img.active{
+  height: 470px;
+  width: 350px;
+  margin: 0px auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.container{
+  margin:0 10px;
+}
+
+.wrapper .title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 25px;
+  font-family: 'Fredoka One', cursive;
+}
+.wrapper .place{
+  color: #fff;
+  font-size: 17px;
+  line-height: 0px;
+  margin: 10px 0;
+}
+.content{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 1px 20px 10px 20px!important;
+}
+
+.container .icons{
+  position: relative;
+  margin-top: -380px;
+  margin-left: 0px;
+  list-style: none;
+}
+.container .icons.active{
+  display: none;
+}
+.container .icons li{
+  height: 40px;
+  width: 40px;
+  margin: 5px 0;
+  opacity: 0;
+  margin-left: -100px;
+  transition: all 0.5s ease;
+}
+.container:hover .icons li{
+  opacity: 1;
+  margin-left: 7px;
+}
+.container:hover .icons li:nth-child(2){
+  transition-delay: 0.2s;
+}
+.container:hover .icons li:nth-child(3){
+  transition-delay: 0.4s;
+}
+.container .icons li a{
+  color: #7b00e0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+.container .icons li a:hover{
+  transform: scale(0.9);
+}
+.first,.sec,.third,.four{
+  margin-top: 8%;
+}
+/* Card end */
+/* ---------------------------------------------------------------- */
+/* About US */
+.container-2{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.T-box{
+  color: white;
+  padding: 20px;
+  max-width: 400px; 
+  margin: 0%;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.T-box hr{
+  border: solid 1px white;
+}
+
+/* About Us end */
+/* ---------------------------------------------------------------- */
+/* Responsive */
+@media screen and (max-width: 700px){
+    .first{
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .container:hover{
+        height: 470px;
+        width: 300px;
+        border-radius: 5px;
+        box-shadow: 0px 1px 35px 0px gray;
+    }
+    .container.icons{
+        position: relative;
+        margin-top: -400px;
+        margin-left: -100px;
+        list-style: none;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Footer start */
+
+.info-text{
+  text-align: left;
+}
+
+.info-item{
+  text-align: left;
+}
+
+.contact-text{
+  text-align: right;
+}
+
+input[type = 'text'],input[type = 'email']
+{
+    text-align: right;
+    justify-content: space-between;
+}
+
+textarea{
+  text-align: right;
+}
+
+.submit{
+  cursor: pointer;
+  float: right;
+}
+

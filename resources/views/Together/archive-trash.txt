@@ -1,0 +1,72 @@
+/* Navbar */
+
+/* nav{
+    position: fixed;
+    width: 100%;
+    transition: 1s;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.4);
+}
+
+ .logo{
+    position: fixed;
+    font-size:35px;
+    font-weight: bold;
+    margin:15px 30px;
+    color:white;
+}  */
+
+.menu-bar , #check{
+    display: none;
+    background-size: 200%;
+}
+
+nav ul{
+    text-align: right;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
+    transition: 2s;
+    
+}
+
+nav ul li{
+    
+    display: inline-block;
+    /* margin:17px 30px; */
+    padding:20px;
+    padding-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Poppins" ,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.7s ease-in-out;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+.text-animated{
+    background: linear-gradient(to right,#ccc 50% , #FF5858 50%, #CC2e5D);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    transition: 0.5s ease-out;
+}
+
+.text-animated:hover{
+    background-position: -100%;
+}
+
+.here{
+    border-top:2px solid blueviolet;
+}
+
+nav.sticky{
+    padding:1px 80px;
+    background-color: #4b4444;
+}

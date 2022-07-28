@@ -1,0 +1,125 @@
+
+
+/* large dekstop and laptop */
+
+@media (min-width: 1200px)
+{
+    /*-------------------- Navbar --------------------*/
+
+    .logo{
+        margin:0; 
+    }
+
+    .logo img{
+        width: 80%;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+    }
+}
+
+
+/*---------------------------------------- large devices (dekstop ) ----------------------------------------*/
+
+@media (max-width: 1199.98px)
+{
+    /*-------------------- Navbar --------------------*/
+
+    .logo{
+        margin:0; 
+    }
+
+    .logo img{
+        width: 85%;
+    }
+
+}
+
+
+/*---------------------------------------- medium devices (tablet) ----------------------------------------*/
+
+@media (max-width: 991.98px)
+{
+    /*-------------------- Navbar --------------------*/
+
+    .logo{
+        margin:0; 
+    }
+}
+
+
+/*---------------------------------------- small devices (landscape phone ) ----------------------------------------*/
+
+@media (max-width: 767.98px)
+{
+    /*-------------------- Navbar --------------------*/
+    .logo{
+        margin:0px;
+    }
+
+    .logo img{
+        width: 80%;
+    } 
+
+
+    nav ul li{
+        padding:5px 20px 5px 0;
+    }
+
+    nav.sticky {
+        padding: 1px 20px 1px 20px;
+    }
+    
+
+}
+
+/*Extera small devices (portrait phone ) */
+
+@media (max-width: 576.98px)
+{
+
+
+    /*-------------------- Navbar --------------------*/
+
+    .logo{
+        margin:0px;
+    }
+
+    .logo img{
+        width: 80%;
+    } 
+
+    .menu-bar{
+        color: white;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        font-size:17px;
+        cursor: pointer;
+        padding:25px 25px 0 0;
+    }
+
+    .menu ul{
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        background-color: #4b4444;
+        top:75px;
+        left:-100%;
+        text-align: center;
+        transition: all 0.5s;
+    }   
+
+    .menu ul li{
+        margin-top:5px;
+        width: 92%;
+    }
+
+    #check:checked ~ .menu ul{
+        left: 0;
+    }
+
+
+}
+

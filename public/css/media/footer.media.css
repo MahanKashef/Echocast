@@ -1,0 +1,22 @@
+
+/*Extera small devices (portrait phone ) */
+
+@media (max-width: 576.98px)
+{
+
+    /* Footer */
+
+    .info{
+        flex-basis: 100%;
+    }
+
+    .contact{
+        flex-basis: 100%;
+    }
+
+    input[type = 'email']{
+        margin-left: 0;
+    }
+
+}
+
